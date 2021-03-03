@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sales_dashboard,access_sales_dashboard,model_sale_dashboard,group_allow_sale_dashboard,1,1,1,1

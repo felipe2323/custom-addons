@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+  <!-- Vista heredada de Factura -->
+	    <record id="account_invoice_invoice_send_ref_form_view" model="ir.ui.view">
+	        <field name="name">account.invoice.form.invoice.send</field>
+	        <field name="model">account.invoice</field>
+	        <field name="inherit_id" ref="account.invoice_form"/>
+	        <field name="arch" type="xml">
+	            <data>
+					<xpath expr="//field[@name='client_order_pedido']" position="after">
+<!--						<label for="fcliente" string="Factura Enviada"/>-->
+<!--						<separator string="Factura Enviada" states="choose"/>-->
+						<field name="fcliente" string="Factura Enviada Cliente" />
+						<field name="fasesor" string="Asesor"/>
+						 <!-- Vista heredada de Factura
+						<field name="send_bill_cust_ids" widget="many2many_checkboxes" groups="account.group_account_user" />
+						-->
+
+
+	            	</xpath>
+	            </data>
+	        </field>
+	    </record>
+
+		<record model="ir.ui.view" id="account_invoice_type_send_ref_tree_view">
+			<field name="name">type_type_tree</field>
+			<field name="model">type.type</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="name"/>
+				</tree>
+			</field>
+		</record>
+
+		<record model="ir.ui.view" id="account_invoice_type_send_ref_form_view">
+		  <field name="name">type_type_form</field>
+		  <field name="model">type.type</field>
+		  <field name="arch" type="xml">
+			<form string="Facturas Enviadas">
+				<sheet>
+				<label for="name" class="oe_edit_only" string="Facturas Enviadas"/>
+					<field name ="name"/>
+				</sheet>
+			</form>
+		 </field>
+		</record>
+
+
+
+  </data>
+</odoo>

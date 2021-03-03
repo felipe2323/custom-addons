@@ -1,0 +1,101 @@
+<odoo>
+    <data noupdate="1">
+        <record forcecreate='True' id="ir_cron_sale_quotation" model="ir.cron">
+            <field name="name">Sale Quotation</field>
+            <field name="active" eval="True"/>
+            <field name="user_id" ref="base.user_root"/>
+            <field name="interval_number">10</field>
+            <field name="interval_type">minutes</field>
+            <field name="numbercall">-1</field>
+            <field name="model" eval="'sale.dashboard'"/>
+            <field name="function" eval="'action_sale_quotation'"/>
+            <field name="args" eval="'()'"/>
+        </record>
+
+         <record forcecreate='True' id="sb_sales_dashboard_1" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="mon_quot"/>
+        </record>
+
+         <record forcecreate='True' id="sb_sales_dashboard_2" model="sale.dashboard">
+            <field name="name"/>
+            <field name="type_graph"/>
+            <field name="kanban_dashboard"/>
+            <field name="quater_quot"/>
+        </record>
+
+        <record forcecreate='True' id="sb_sales_dashboard_3" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="mon_order"/>
+        </record>
+
+         <record forcecreate='True' id="sb_sales_dashboard_4" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="quater_order"/>
+        </record>
+
+        <record forcecreate='True' id="sb_sales_dashboard_5" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="mon_client"/>
+        </record>
+
+        <record forcecreate='True' id="sb_sales_dashboard_6" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="quater_client"/>
+        </record>
+
+        <record forcecreate='True' id="sb_sales_dashboard_7" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="mon_total_sale"/>
+        </record>
+
+        <record forcecreate='True' id="sb_sales_dashboard_8" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="quater_total_sale"/>
+        </record>
+
+        <record forcecreate='True' id="sb_sales_dashboard_9" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="yearly_total_sale"/>
+        </record>
+
+        <record forcecreate='True' id="sb_sales_dashboard_10" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="mon_gross_margin"/>
+        </record>
+
+        <record forcecreate='True' id="sb_sales_dashboard_11" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="quater_gross_margin"/>
+        </record>
+
+<!--         <record forcecreate='True' id="sb_sales_dashboard_12" model="sale.dashboard">
+            <field name="name"/>
+            <field name="kanban_dashboard"/>
+            <field name="type_graph"/>
+            <field name="yearly_gross_margin"/>
+        </record>
+ -->
+    </data>
+</odoo>
+

@@ -1,0 +1,42 @@
+<odoo>
+    <data>
+     
+        
+        <record id="customer_invoice_extends_tree" model="ir.ui.view">
+            <field name="name">account.invoice.form.inherit</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='number']" position="after">
+                    <field name="customer_type_id" invisible="1"/>
+                    <field name="customer_group_id" invisible="1"/>
+                </xpath>
+            </field>
+        </record>
+
+        
+         <record id="view_customer_invoice_inherit_search" model="ir.ui.view">
+            <field name="name">customer.invoice.extends.filter_search</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.view_account_invoice_filter"/>
+            <field name="arch" type="xml">
+                <xpath expr="//search" position="inside">
+                    <field name="customer_type_id" string="Customer Type"/>
+                    <field name="customer_group_id" string="Customer Group"/>
+                    <field name ="amount_total" string="Total"/>
+                </xpath>
+            </field>
+        </record>
+        
+        <record id="customer_invoice_extends_add_sequence_type" model="ir.ui.view">
+            <field name="name">account.invoice.form.sequence.add.inherit</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form/sheet/group/group[1]/field[@name='payment_term_id']" position="after">
+                    <field name="sequence_type"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

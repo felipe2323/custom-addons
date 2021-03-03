@@ -1,0 +1,34 @@
+<odoo>
+    <data>
+    	<record id="invoice_multi_sequence_form_view" model="ir.ui.view">
+		        <field name="name">invoice.multi.sequence.form.view</field>
+		        <field name="model">invoice.multi.sequence</field>
+		        <field name="arch" type="xml">
+		            <form string="Invoice Multi Sequence">
+		            	<sheet>
+			            	<group>
+			            		<field name="name" required="1"/>
+							</group>
+							<group>			            		
+								<field name="squence_id" required="1" />
+							</group>
+						</sheet>		            	
+		            </form>
+		        </field>
+		</record>
+		
+		<record id="action_invoice_multi_sequence" model="ir.actions.act_window">
+		        <field name="name">Invoice Multi Sequence</field>
+		        <field name="type">ir.actions.act_window</field>
+		        <field name="res_model">invoice.multi.sequence</field>
+		        <field name="view_type">form</field>
+		        <field name="view_mode">tree,form</field>
+		</record>
+		
+		<menuitem action="action_invoice_multi_sequence"
+				id="invoice_multi_sequence_menu"
+				parent="account.account_account_menu"
+				name="Sequence Type"		
+			 	sequence="60"/>
+    </data>
+</odoo>

@@ -1,0 +1,383 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* sb_sales_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 11:15+0000\n"
+"PO-Revision-Date: 2018-08-08 11:15+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Apr"
+msgstr "Abr"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:465
+#: code:addons/sb_sales_dashboard/models.py:492
+#: code:addons/sb_sales_dashboard/models.py:516
+#: code:addons/sb_sales_dashboard/models.py:540
+#: code:addons/sb_sales_dashboard/models.py:581
+#, python-format
+msgid "Apr-Jun"
+msgstr "Abril-junio"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Aug"
+msgstr "Ago"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_color
+msgid "Color Index"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Dec"
+msgstr "Dic"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Feb"
+msgstr "Feb"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_id
+msgid "ID"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Jan"
+msgstr "Ene"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:465
+#: code:addons/sb_sales_dashboard/models.py:492
+#: code:addons/sb_sales_dashboard/models.py:516
+#: code:addons/sb_sales_dashboard/models.py:540
+#: code:addons/sb_sales_dashboard/models.py:581
+#, python-format
+msgid "Jan-Mar"
+msgstr "Enero-marzo"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Jul"
+msgstr "Jul"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:465
+#: code:addons/sb_sales_dashboard/models.py:492
+#: code:addons/sb_sales_dashboard/models.py:516
+#: code:addons/sb_sales_dashboard/models.py:540
+#: code:addons/sb_sales_dashboard/models.py:581
+#, python-format
+msgid "Jul-Sep"
+msgstr "Jul-Sep"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Jun"
+msgstr "Jun"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_kanban_dashboard
+msgid "Kanban dashboard"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_kanban_dashboard_graph
+msgid "Kanban dashboard graph"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Mar"
+msgstr "Mar"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "May"
+msgstr "Mayo"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:440
+#, python-format
+msgid "Monthly Gross Margin"
+msgstr "Margen bruto mensual"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_mon_gross_margin
+msgid "Monthly Gross Margin Of Sales"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:423
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_mon_client
+#, python-format
+msgid "Monthly New Clients"
+msgstr "Nuevos clientes mensuales"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_mon_order
+msgid "Monthly Orders"
+msgstr "Pedidos mensuales"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:408
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_mon_quot
+#, python-format
+msgid "Monthly Quotations"
+msgstr "Citas mensuales"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:430
+#, python-format
+msgid "Monthly Sale Order Total"
+msgstr "Total de orden de venta mensual"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_mon_total_sale
+msgid "Monthly Sale Orders Total"
+msgstr "Total mensual de pedidos de venta"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:415
+#, python-format
+msgid "Monthly Sales Orders"
+msgstr "Pedidos de ventas mensuales"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_name
+msgid "Name"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Nov"
+msgstr "Nov"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Oct"
+msgstr "Oct"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:465
+#: code:addons/sb_sales_dashboard/models.py:492
+#: code:addons/sb_sales_dashboard/models.py:516
+#: code:addons/sb_sales_dashboard/models.py:540
+#: code:addons/sb_sales_dashboard/models.py:581
+#, python-format
+msgid "Oct-Dec"
+msgstr "Oct-Dic"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:442
+#, python-format
+msgid "Quaterly Gross Margin"
+msgstr "Margen bruto trimestral"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_quater_gross_margin
+msgid "Quaterly Gross Margin Of Sales"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:425
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_quater_client
+#, python-format
+msgid "Quaterly New Clients"
+msgstr "Clientes nuevos trimestrales"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_quater_order
+msgid "Quaterly Orders"
+msgstr "Órdenes trimestrales"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:410
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_quater_quot
+#, python-format
+msgid "Quaterly Quotations"
+msgstr "Citas trimestrales"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:432
+#, python-format
+msgid "Quaterly Sale Order Total"
+msgstr "Total de orden de venta trimestral"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_quater_total_sale
+msgid "Quaterly Sale Orders Total"
+msgstr "Total de órdenes de venta trimestrales"
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:417
+#, python-format
+msgid "Quaterly Sales Orders"
+msgstr "Órdenes de venta trimestrales"
+
+#. module: sb_sales_dashboard
+#: model:ir.ui.menu,name:sb_sales_dashboard.sb_sale_dashboard
+#: model:ir.ui.menu,name:sb_sales_dashboard.sb_sale_dashboard_menu
+msgid "Sale Dashboard"
+msgstr "Tablero de venta"
+
+#. module: sb_sales_dashboard
+#: model:ir.actions.act_window,name:sb_sales_dashboard.sb_sale_dashboard_action
+msgid "Sales Dashboard"
+msgstr "Tablero de ventas"
+
+#. module: sb_sales_dashboard
+#: model:res.groups,name:sb_sales_dashboard.sales_manager_security
+msgid "Sales Manager"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: model:ir.module.category,name:sb_sales_dashboard.security_permissions
+msgid "Security"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: model:ir.module.category,description:sb_sales_dashboard.security_permissions
+msgid "Security for Sales Dashboard"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:452
+#: code:addons/sb_sales_dashboard/models.py:479
+#: code:addons/sb_sales_dashboard/models.py:505
+#: code:addons/sb_sales_dashboard/models.py:528
+#: code:addons/sb_sales_dashboard/models.py:570
+#, python-format
+msgid "Sep"
+msgstr "Sep"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_type_graph
+msgid "Type"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: code:addons/sb_sales_dashboard/models.py:434
+#, python-format
+msgid "Yearly Sale Order Total"
+msgstr "Total de orden de venta anual"
+
+#. module: sb_sales_dashboard
+#: model:ir.model.fields,field_description:sb_sales_dashboard.field_sale_dashboard_yearly_total_sale
+msgid "Yearly Sale Orders Total"
+msgstr "Total anual de pedidos de venta"
+
+#. module: sb_sales_dashboard
+#: model:ir.model,name:sb_sales_dashboard.model_custom_sales_dashboard
+msgid "custom.sales.dashboard"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: model:ir.model,name:sb_sales_dashboard.model_sale_dashboard
+msgid "sale.dashboard"
+msgstr ""
+
+#. module: sb_sales_dashboard
+#: model:ir.model,name:sb_sales_dashboard.model_sb_sale_dashboard
+msgid "sb.sale.dashboard"
+msgstr ""
+
